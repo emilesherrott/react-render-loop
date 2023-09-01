@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(#00ADD2, #9198e5);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  max-width: 20vw;
+  max-height: 60vh;
+  overflow: scroll;
+  margin: 14px 14px 14px 0px;
+}
+
+.beerdrink-tagline {
+    color: #DDD;
+    font-style: italic;
+}
